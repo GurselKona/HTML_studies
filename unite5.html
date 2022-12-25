@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get" target="_parent" id="form1">
+    <fieldset>
+        <legend>kimlik bilgileri</legend>
+        Ad: <br>
+        <input type="text" name="firstn" 
+        autocomplete="on" accept-charset="UTF-8">
+        <br>
+        Soyad:
+        <br>
+        <input type="text" name="lastn" required>
+        <br>
+        Tel
+        <br>
+        <input type="tel">
+        <br>
+        email
+        <br>
+        <input type="email" name="" id="">
+    </fieldset>
+        <br>
+    <fieldset>
+        <legend>Detaylar</legend>
+        <input type="month" name="" id="">
+        <input type="date" name="" id="">
+        <input type="week">
+        <input type="time">
+        <input type="datetime-local">
+        <input type="url" name="" id="" value="http://sdfsf">
+        <br> <br>
+        <input type="checkbox" name="check1" id="" checked> 1. seçenek
+        <input type="checkbox" name="check2" id="2"> <label for="2">2. seçenek</label> 
+        <br>
+        <input type="radio" name="sec" value="top"> top
+        <br>
+        <input type="radio" name="sec" value="seker"> şeker
+        <input type="radio" name="sec" value="sakiz"> sakiz
+
+
+        <br><br>
+        <input type="file" name="picture" id="" multiple>
+        <br>
+        <input type="color" list>
+        <br>
+        <input type="range" min="0" max="10" step="2" name="urun">
+        <br>
+        <input type="number" name="" max="10" min="0" 
+        placeholder="0" autocomplete="on">
+    </fieldset>
+        <br><br><br>
+        <input type="submit" value="gönder">
+        <input type="reset" value="temizle" name="" id="">
+    </form>
+    <button type="submit" form="form1" style="background-color:green;">yeni gönder</button>
+    <button type="reset" form="form1" style="background-color:red;">yeni sil</button>
+    
+    <select name="ulke" form="ulkeler">
+        <optgroup label="Asya">
+            <option value="cin">Çin</option>
+            <option value="hindistan">Hindistan</option>
+            <option value="mogolistan">Moğolistan</option>
+        </optgroup>
+        <optgroup label="Avrupa">
+            <option value="ingiltere">İngiltere</option>
+            <option value="almanya">Almanya</option>
+            <option value="ispanya">İspanya</option>
+        </optgroup>
+        <optgroup label="Afrika">
+            <option value="misir">Mısır</option>
+            <option value="fas">Fas</option>
+            <option value="guney afrika">Güney Afrika</option>
+        </optgroup>
+     </select> 
+     <form action="" method="get" id="ulkeler">
+        İsim:<input type="text" name="ad" id="">
+        <input type="submit">
+    </form> 
+    <textarea name="" id="" form="deneme" cols="30" rows="10"></textarea>
+    <form action="" id="deneme">
+        <input type="submit">
+    </form>
+
+    <input type="text" name="sehir" id="secim" list="sehirlistesi" form="gezi">
+    <datalist id="sehirlistesi">
+        <option value="istanbul">İstanbul</option>
+        <option value="ankara">Ankara</option>
+    </datalist>
+    <form action="" id="gezi">
+        <input type="submit">
+    </form>                              
+</body>
+</html>

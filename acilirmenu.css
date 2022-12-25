@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+}
+header, footer {
+    width: 100%;
+    background-color: lightgray;
+    overflow: auto;
+}
+header div {
+    margin: auto;
+    max-width: 800px;
+}
+header img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+}
+header h1 {
+    float: left;
+    padding: 20px 0 0 20px;
+}
+footer div {
+    text-align: center;
+}
+
+nav.anamenu {
+    max-width: 900px;
+    background-color: lightgray;
+    overflow: auto;
+    margin: auto;
+    border: thin solid;
+
+}
+
+nav.anamenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+nav.anamenu a{
+    display: block;
+    width: 120px;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+}
+
+nav.anamenu a.etkin {
+    background-color:darkgray;
+    color: white;
+}
+nav.anamenu a:hover:not(.etkin) {
+    background-color: black;
+    color: white;
+}
+
+nav.anamenu li {
+    float: left;
+}
+nav.anamenu li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+nav.anamenu li a:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+nav.anamenu li.acilirmenu {
+    display: inline-block;
+}
+
+nav.anamenu div.altmenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 10px 2px rgba(0,0,0,0.2);
+
+
+}
+nav.anamenu div.altmenu a {
+    display: block;
+    color: black;
+    padding: 12px 16x;
+    text-decoration: none;
+    text-align: left;
+
+}
+
+nav.anamenu div.altmenu a:hover{
+    background-color: #f1f1f1;
+}
+
+nav.anamenu li.acilirmenu:hover div.altmenu {
+    display:block;
+}
+main {
+    margin: auto;
+    max-width: 800px;
+    border: solid 1px gray;
+    overflow: auto;
+}
+ main div {
+    width: 100%;
+    display: table;
+    border-spacing: 10px;
+ }
+
+ section {
+    display: table-cell;
+    border: thin solid gray;
+    border-radius: 15px;
+    width: auto;
+    margin: 2px;
+    padding: 10px;
+ }
+
+ aside {
+    background-color: lightgray;
+    display: table-cell;
+    border-radius: 15px;
+    height: 150px;
+    width: 200px;
+    margin: 2px;
+    padding: 15px;
+ }

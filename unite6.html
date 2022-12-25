@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #deneme {
+            visibility:hidden;
+        }
+        #table {
+            display:table;
+            border:solid 1px;
+        }
+        .table-row {
+            display:table-row;
+            border:solid 1px;
+        }
+        .table-cell {
+            display:table-cell;
+            border:solid 1px;
+        }
+        #div1 {
+            width: 700px;
+            border: solid 1px;
+        }
+        #div2 {
+            max-width: 700px;
+            border: solid 1px;
+        }
+        #kutu0 {
+            width: 700px;
+            height: 500px;
+            padding: 5px;
+            background-color: aqua;
+            border: solid 1px;
+
+        }
+        #kutu1 {
+            margin:auto;
+            border: solid 1px;
+            text-align: center;
+            width: 200px;
+        }
+        #kutu2 {
+            width: 400px;
+            border: solid;
+            text-align: left;
+            
+        }
+        #kutu3 {
+            width: 200px;
+            border: solid;
+            margin-left: 0;
+            
+        }
+        #kutu4 {
+            width: 200px;
+            border: solid;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: right;
+            
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div>blok1</div>
+    <div id="deneme">blok2</div>
+    <div id="table">
+        <div id="table-row">
+            <div class="table-cell">Hücre 1</div>
+            <div class="table-cell">Hücre 2</div>
+        </div>
+        <div id="table-row">
+            <div class="table-cell">Hücre 3</div>
+            <div class="table-cell">Hücre 4</div>
+        </div>    
+    </div>
+    <div>
+        <div id="div1">div 1</div>
+        <div id="div2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit officia ipsum ipsam maxime molestias repudiandae magnam consequatur, sint dolore impedit.</div>
+    </div>
+    <div>
+        <div id="kutu0">
+            <div id="kutu1">kutu 1</div>
+            <div id="kutu2"> kutu2
+                <div id="kutu3">kutu 3</div>
+                <div id="kutu4">kutu 4</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
